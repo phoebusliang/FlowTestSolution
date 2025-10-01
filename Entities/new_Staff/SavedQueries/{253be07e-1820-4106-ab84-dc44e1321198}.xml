@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{253be07e-1820-4106-ab84-dc44e1321198}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_staffname" select="1" icon="1" preview="1">
+        <row name="result" id="new_staffid">
+          <cell name="new_staffname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_staff">
+          <attribute name="new_staffid" />
+          <attribute name="new_staffname" />
+          <attribute name="createdon" />
+          <order attribute="new_staffname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Staff" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
