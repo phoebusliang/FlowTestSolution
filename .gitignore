@@ -1,1 +1,8 @@
 .DS_Store
+.idea/
+Entropy
+*.sarif
+EditorState
+Src/*EditorState*.pa.yaml
+_EditorState.pa.yaml
+*.msapp

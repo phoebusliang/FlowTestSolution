@@ -1,0 +1,88 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_sampledisplaies",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_sampledisplay",
+    "Name": "SampleDisplaies",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "createdon": "Created On",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedon": "Modified On",
+      "new_createddate": "Created Date",
+      "new_displayname": "Display Name",
+      "new_isactive": "Is Active",
+      "new_sampledisplayid": "SampleDisplay",
+      "overriddencreatedon": "Record Created On",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "SampleDisplaies",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Status (SampleDisplaies)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t17_10bad5e25d_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "SampleDisplaies"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "SampleDisplaies",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (SampleDisplaies)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t17_10bad5e25d_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "SampleDisplaies"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "SampleDisplaies",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Active (SampleDisplaies)",
+    "Name": "new_sampledisplay_new_isactive",
+    "OptionSetInfoNameMapping": {
+      "0": "True",
+      "1": "False"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_isactive",
+        "OptionSetReferenceEntityName": "SampleDisplaies"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "new_isactive",
+    "RelatedEntityName": "SampleDisplaies",
+    "Type": "OptionSetInfo"
+  }
+]

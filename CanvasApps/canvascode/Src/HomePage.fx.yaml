@@ -1,0 +1,8 @@
+HomePage As screen:
+
+    Label1 As label:
+        Text: ="Test Data"
+        X: =40
+        Y: =40
+        ZIndex: =1
+

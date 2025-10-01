@@ -1,0 +1,11 @@
+## MsApp specific overrides
+/[Cc]ontrols/
+/[Cc]hecksum.json
+/[Hh]eader.json
+/[Aa]pp[Cc]hecker[Rr]esult.sarif
+../Entropy
+*.sarif
+./CanvasApps/canvascode/Src/EditorState/*
+./CanvasApps/canvascode/Other/Src/*EditorState*.pa.yaml
+_EditorState.pa.yaml
+*.msapp
